@@ -1,0 +1,58 @@
+Why can't we have nice things?  Compiz is the best.  I would advocate for not only including Compiz, but having it set as the default for MATE.
+
+Here is a link to the forums where there is more discussion and an example of a working default config that works great and also is very clean.
+https://forums.linuxmint.com/viewtopic.php?f=29&t=333065&p=1906718#p1906718
+
+And here is the comments section regarding Compiz missing from the beta:
+
+“System improvements
+Compiz is no longer installed by default.”
+O what? that’s supposed to be an improvement? Why? Err… Hmmm… Argh! I suppose that makes it easier for devs but I liked having the cube desktop! I have used it in my old laptop all these years and now it won’t come by default? Please restore it back I beg you!
+Reply
+
+    Clem
+    December 18, 2020 at 2:55 pm	
+
+    Hi Josue,
+
+    I’m sorry. It is indeed bad news if you enjoyed Compiz and not an improvement in that respect. It’s an improvement for everyone else if we stop shipping something that’s half broken and less and less supported though, it does increase the overall quality of the release.
+
+    In Mint 20, not only did we learn that we shipped a version of Compiz which was completely broken (it had no titlebars, you couldn’t even move windows!), but we realized nobody cared about it and we only got to know about this 5 months later. This showed us the level of care we, as a team, had for Compiz. It showed the level of need, our audience, in general had for it (if a critical issue goes unnoticed that long, then you have to wonder exactly how many people do use it). And last but not least, it showed us the level of care the upstream developers of “this” version of Compiz (I say it like that because it’s getting forked left, right and center, and what we have here is some sort of Ubuntu-specific version) had for it and its compatibility with various desktops, they made a change which de-facto completely prevented Compiz from working at all outside of the box, without distributions providing DE-specific sets of configuration.
+
+    I’m not ranting and I wish them well. When you install Compiz on your own you’ll see it won’t work out of the box. On our side I’m just glad we no longer ship it.
+
+    Note: For people interested in Compiz. Compiz 0.9.x in Ubuntu is a distribution-specific version which was greatly impacted by the development of Unity, sometimes at its own detriment. I’ve no idea what’s going on nowadays in Compiz 0.9.x, especially now that Unity is no more. I’d like to mention the fact that some projects have forked Compiz 0.8.x though and are maintaining this. If you enjoy Compiz, don’t hesitate to give the 0.8.x fork a try.
+    BJ
+    December 19, 2020 at 4:31 am	
+
+    Josue is right, I had the same reaction when seeing no Compiz on LM 20.1 arghhhhhhh.
+    People did notice and complain, but many, like myself just look at fixing things ourselves before complaining or don’t know where or how to complain, github and launchpad etc are intimidating to us everyday users of LM!
+
+    This video https://youtu.be/Ki-ddobrdgU Compiz Cube Linux Mint 20 (Mate & Xfce) got 5.3k views in 6 months, from a channel with only 300 subs! Read the comments on it! People do use Compiz and being able to flick a switch in LM and turn it on has always stood out as a great feature of LM. Some of my most viewed videos are the Compiz ones. If you look on my channel you’ll see Compiz is my ‘thing’ (and LM) or even type Compiz into Youtube search and some of them will pop up.
+
+    LM 20 had no ‘mint’ profile in the preferences of the Compiz Configuration Settings Manager (CCSM) and was set to ‘flat file’ rather than Gsettings as earlier editions of LM had been. I assumed the ‘mint’ profile was something the LM team did before releasing each new version of LM and perhaps it just got missed on LM 20 and would be fixed on 20.1 so this is a little disappointing to me also.
+
+    I am not a programmer, however if you want someone to set up similar defaults as shipped on LM 19.x on a ‘mint’ profile for LM 20.x (LM 19 profiles don’t work on LM 20) I’m happy to help out. I’ve made a 3 1/2 minute video showing how easy it is to install Compiz and get a functioning desktop with title bars, moving and resizing windows etc on LM 20.1 here https://youtu.be/34Gr9QDXmMA
+
+    From your reply to Josue I got a sense of ‘Compiz is a pain and glad to get rid of it’ which I get, so once again if I can help out by creating a profile you can simply import into Compiz then please contact me as I would definitely like to see this feature remain part of LM Mate and Xfce into the future.
+    Clem
+    December 21, 2020 at 11:44 am	
+
+    Hi BJ,
+
+    You’re putting me in an awkward position because the right thing to do is to ship without it, yet if we do a little effort we can indeed fix this situation. It’s hard to refuse, especially now that you’re spending time and helping out with it. Leave it with us, we’ll think about it and weight-in the pros and cons during the BETA.
+    Chad
+    December 19, 2020 at 7:09 pm	
+
+    _Josue_
+
+    I too am long time user of Compiz. I could not reply to Clem directly in this communication, but to respond to his titlebars not displaying on windows in a Compiz environment, one only has to check the “Windows Decorations” in the Compiz Configuration, as you probably already know. I’m having no issues with LM 20 running Compiz – it has many advantages, if one knows how to configure it’s features properly. It may be very true that it is not getting the attention it needs in development upgrades, but it still works fine (for me anyway).
+    rhY
+    December 21, 2020 at 2:00 pm	
+
+    I’ve been trying to get the Mint team to fix Compiz before release for several versions now. If mint abandons compiz entirely, I’ll have to migrate to a different distro, or maybe fork Mint Mate and start my own distro I suppose. Something I’ve been thinking about for a long time anyway.
+
+    If we CAN fix compiz and have it ship in a working manner before release, that would be great, but I provided plenty of data during the Mint 20 beta, and it was summarily ignored.
+
+And here is a link to the forums where there is more discussion and an example of a working default config that works great and also is very clean.
+https://forums.linuxmint.com/viewtopic.php?f=29&t=333065&p=1906718#p1906718
